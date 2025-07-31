@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(217, 233, 247);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+#abc{
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: rgb(158, 196, 230);
+}
+.container{
+    border: 5px solid black;
+    border-radius: 15px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border: 2px solid rgb(14, 14, 105);
+    height:100px;
+    width: 100px;
+    background-color: rgb(215, 250, 250);
+    font-size: 50px;
+        color: red;
+    
+}
+button:hover{
+    background-color: rgb(168, 149, 234);
+}
+#hi{
+    height: 40px;
+    width: 100px;
+    margin: 20px;
+}
+#rt{
+    display: flex;
+    justify-content: center;
+}
+.toph1{
+    font-size: 100px;
+    /* margin: 230px; */
+   
+}
+.hide{
+display: none;
+}
+.top{
+    height: 100vh;
+}
+.x{
+  color: rgb(90, 25, 65);  
+}
+.o{
+    color: rgb(52, 52, 230);
+}
